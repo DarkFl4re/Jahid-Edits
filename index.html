@@ -1,0 +1,85 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="theme-color" content="#050914" />
+  <title>Jahid Hasan — Portfolio</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="stars"></div>
+  <header class="nav">
+    <a class="brand" href="#">Jahid<span>Dev.</span></a>
+    <div class="nav-actions">
+      <button class="sound" id="soundBtn" aria-label="Toggle sound">◖))</button>
+      <button class="menu" id="menuBtn" aria-label="Open menu"><i></i><i></i></button>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div class="scene" id="scene" aria-label="Animated 3D developer ID card">
+        <div class="lanyard">
+          <div class="strap"><span>JAHID HASAN • DEVELOPER • JAHID HASAN •</span></div>
+          <div class="strap-end"></div>
+          <div class="clip"><span></span></div>
+          <div class="ring"></div>
+        </div>
+        <div class="id-card" id="idCard">
+          <div class="card-face front">
+            <div class="card-top">
+              <span class="tag">JUNIOR</span>
+              <span class="school">CREATIVE<br>DEVELOPER</span>
+            </div>
+            <div class="big-word">DEVELOPER</div>
+            <div class="portrait-wrap">
+              <!-- Replace assets/profile.jpg with your own portrait -->
+              <img src="assets/profile.jpg" alt="Jahid Hasan" onerror="this.style.display='none';this.nextElementSibling.style.display='grid'">
+              <div class="portrait-fallback">JH</div>
+            </div>
+            <div class="vertical-label">JAHID HASAN</div>
+            <div class="nameplate">JAHID HASAN</div>
+            <div class="card-bottom">
+              <strong>PORTFOLIO</strong>
+              <span>CREATE. BUILD. INSPIRE.</span>
+            </div>
+            <div class="corner-mark">JP</div>
+          </div>
+          <div class="card-face back">
+            <div class="back-top"><b>SCAN HERE</b><span>JAHID PLAYZ</span></div>
+            <div class="qr-frame"><div class="qr" id="qr"></div><small>CONNECT WITH ME</small></div>
+            <div class="back-name">JAHID HASAN <small>Developer & Creator</small></div>
+            <div class="back-side">CRAFT • CODE • CREATE</div>
+          </div>
+        </div>
+      </div>
+
+      <div class="hero-copy">
+        <p class="eyebrow">WELCOME TO MY DIGITAL SPACE</p>
+        <h1><span>Welcome to</span><br>My Portfolio</h1>
+        <p class="role"><span id="typed">Web Developer</span><b class="cursor">|</b></p>
+        <p class="intro">I build modern digital experiences and creative projects.</p>
+        <a class="cta" href="#about">Explore Portfolio <span>↗</span></a>
+      </div>
+      <div class="scroll-hint">SCROLL TO EXPLORE <span>↓</span></div>
+    </section>
+
+    <section class="about" id="about">
+      <p class="eyebrow">A LITTLE INTRODUCTION</p>
+      <h2>Building ideas into <span>reality.</span></h2>
+      <p>I'm Jahid Hasan — a developer and creator passionate about web design, technology and creative projects.</p>
+      <div class="links">
+        <a href="https://github.com/" target="_blank" rel="noreferrer">GitHub ↗</a>
+        <a href="https://youtube.com/" target="_blank" rel="noreferrer">YouTube ↗</a>
+        <a href="mailto:hello@example.com">Email ↗</a>
+      </div>
+    </section>
+  </main>
+
+  <script type="module" src="script.js"></script>
+</body>
+</html>
