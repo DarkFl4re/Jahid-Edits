@@ -1,0 +1,4 @@
+@tailwind base;@tailwind components;@tailwind utilities;
+html{scroll-behavior:smooth}body{background:#030712;color:#fff;overflow-x:hidden;padding-bottom:env(safe-area-inset-bottom)}
+.glass{background:rgba(16,24,39,.65);backdrop-filter:blur(14px);border:1px solid rgba(100,130,180,.18);border-radius:1.25rem}
+@media(prefers-reduced-motion:reduce){*{animation:none!important;transition:none!important;scroll-behavior:auto!important}}
